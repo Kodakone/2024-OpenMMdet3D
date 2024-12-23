@@ -1,0 +1,4 @@
+train_cfg = dict(by_epoch=True, max_epochs=20, val_interval=20)가 어떻게 되어있는지 꼭 확인할것.
+
+default값 20입니다! 그 이하의 값으로 되어있으면 꼭 수정해서 적용할것!!
+
