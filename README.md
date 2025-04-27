@@ -33,7 +33,7 @@ Training sample:3712, Test sample:3769, Training epoch:20
 ![image](https://github.com/user-attachments/assets/d247fbbe-b618-4fed-ac0b-b58d5d847489)
 
 
-Point를 좀 더 세밀하게 인식
+Point를 좀 더 세밀하게 인식할 수 있는 Adaptive-Voxelization
 
 
 ## File 적용
