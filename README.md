@@ -1,5 +1,4 @@
 ## Self-Adaptive Voxelization 구현 
-## Openmmlab-MMdetection3D 오픈소스 이용 
 
 """ 
 Self-Adaptive Voxelization이란? 
@@ -16,8 +15,8 @@ Self-Adaptive Voxelization(SAV)
 ![image](https://github.com/user-attachments/assets/086d8cda-23e0-4a92-9ddb-2364a9e17858)
 
 Self-Adaptive Voxelization(SAV)을 Model에 적용한 경우
-## File: mmdet3d - model - voxel encoder 변형 및 수정
 
+## Openmmlab-MMdetection3D 오픈소스 이용 
 
 PointPillars, SECOND, PV_RCNN, MVX_Net, Part-A2
 다음 Voxelization 딥러닝 모델들에 대해 테스트 진행 및 생성.
@@ -34,8 +33,13 @@ Training sample:3712, Test sample:3769, Training epoch:20
 ![image](https://github.com/user-attachments/assets/d247fbbe-b618-4fed-ac0b-b58d5d847489)
 
 
-Point를 좀 더 세밀하게 포착
+Point를 좀 더 세밀하게 인식
 
 
+## File 적용
+MMdetection3D 오픈소스 설치 후, 
+
+File: mmdet3d - model - voxel encoder에 적용. 
+Commit file 중 voxel encoder를 기입하여 사용, 필요시 변형 및 수정
 
 
